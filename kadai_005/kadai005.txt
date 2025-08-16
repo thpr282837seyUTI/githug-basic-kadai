@@ -1,0 +1,8 @@
+cd git_challenge
+echo "" > hello_world.txt
+echo "Hello, world!" >> hello_world.txt
+PS C:\Users\masim\git_challenge> git add hello_world.txt
+PS C:\Users\masim\git_challenge> git commit -m "Add Hello, world! to hello_world.txt"
+PS C:\Users\masim\git_challenge> git add hello_world.txt
+PS C:\Users\masim\git_challenge> git commit -m "Add こんにちは、世界！ to hello_world.txt"
+PS C:\Users\masim\git_challenge> git log --oneline
