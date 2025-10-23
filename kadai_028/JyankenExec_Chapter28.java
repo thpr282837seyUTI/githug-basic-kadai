@@ -4,8 +4,9 @@ public class JyankenExec_Chapter28 {
     public static void main(String[] args) {
         Jyanken_Chapter28 jyanken = new Jyanken_Chapter28();
 
-        String myChoice = jyanken.getMyChoice(); // 入力処理
-        String enemyChoice = jyanken.getRandom(); // 乱数で手を決定
-        jyanken.playGame(myChoice, enemyChoice); // 結果表示
+        String myChoice = jyanken.getMyChoice();   // 自分の手を取得
+        String opponentChoice = jyanken.getRandom(); // 相手の手を乱数で取得
+
+        jyanken.playGame(myChoice, opponentChoice); // 勝負実行
     }
 }
